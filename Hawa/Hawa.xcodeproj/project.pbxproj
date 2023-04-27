@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4AEEBF29F9F73F00FAA878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEEBE29F9F73F00FAA878 /* AppDelegate.swift */; };
+		DD4AEEC129F9F73F00FAA878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEEC029F9F73F00FAA878 /* SceneDelegate.swift */; };
+		DD4AEEC629F9F73F00FAA878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4AEEC429F9F73F00FAA878 /* Main.storyboard */; };
+		DD4AEEC829F9F74000FAA878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4AEEC729F9F74000FAA878 /* Assets.xcassets */; };
+		DD4AEECB29F9F74000FAA878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4AEEC929F9F74000FAA878 /* LaunchScreen.storyboard */; };
+		DD4AEED629F9F74000FAA878 /* HawaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEED529F9F74000FAA878 /* HawaTests.swift */; };
+		DD4AEEE029F9F74000FAA878 /* HawaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEEDF29F9F74000FAA878 /* HawaUITests.swift */; };
+		DD4AEEE229F9F74000FAA878 /* HawaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEEE129F9F74000FAA878 /* HawaUITestsLaunchTests.swift */; };
+		DD4AEEF529F9FB1C00FAA878 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AEEF429F9FB1C00FAA878 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4AEED229F9F74000FAA878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4AEEB329F9F73F00FAA878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4AEEBA29F9F73F00FAA878;
+			remoteInfo = Hawa;
+		};
+		DD4AEEDC29F9F74000FAA878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4AEEB329F9F73F00FAA878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4AEEBA29F9F73F00FAA878;
+			remoteInfo = Hawa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4AEEBB29F9F73F00FAA878 /* Hawa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hawa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4AEEBE29F9F73F00FAA878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD4AEEC029F9F73F00FAA878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD4AEEC529F9F73F00FAA878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD4AEEC729F9F74000FAA878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4AEECA29F9F74000FAA878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD4AEECC29F9F74000FAA878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4AEED129F9F74000FAA878 /* HawaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4AEED529F9F74000FAA878 /* HawaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawaTests.swift; sourceTree = "<group>"; };
+		DD4AEEDB29F9F74000FAA878 /* HawaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4AEEDF29F9F74000FAA878 /* HawaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawaUITests.swift; sourceTree = "<group>"; };
+		DD4AEEE129F9F74000FAA878 /* HawaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD4AEEF429F9FB1C00FAA878 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4AEEB829F9F73F00FAA878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEECE29F9F74000FAA878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEED829F9F74000FAA878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4AEEB229F9F73F00FAA878 = {
+			isa = PBXGroup;
+			children = (
+				DD4AEEBD29F9F73F00FAA878 /* Hawa */,
+				DD4AEED429F9F74000FAA878 /* HawaTests */,
+				DD4AEEDE29F9F74000FAA878 /* HawaUITests */,
+				DD4AEEBC29F9F73F00FAA878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4AEEBC29F9F73F00FAA878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AEEBB29F9F73F00FAA878 /* Hawa.app */,
+				DD4AEED129F9F74000FAA878 /* HawaTests.xctest */,
+				DD4AEEDB29F9F74000FAA878 /* HawaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4AEEBD29F9F73F00FAA878 /* Hawa */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AEEF329F9F7F800FAA878 /* LoginViews */,
+				DD4AEEF229F9F7EC00FAA878 /* CoreViews */,
+				DD4AEEF129F9F7DE00FAA878 /* SecondaryViews */,
+				DD4AEEF029F9F7CD00FAA878 /* CustomCells */,
+				DD4AEEEF29F9F7BF00FAA878 /* Model */,
+				DD4AEEEE29F9F79E00FAA878 /* Util */,
+				DD4AEEBE29F9F73F00FAA878 /* AppDelegate.swift */,
+				DD4AEEC029F9F73F00FAA878 /* SceneDelegate.swift */,
+				DD4AEEC429F9F73F00FAA878 /* Main.storyboard */,
+				DD4AEEC729F9F74000FAA878 /* Assets.xcassets */,
+				DD4AEEC929F9F74000FAA878 /* LaunchScreen.storyboard */,
+				DD4AEECC29F9F74000FAA878 /* Info.plist */,
+			);
+			path = Hawa;
+			sourceTree = "<group>";
+		};
+		DD4AEED429F9F74000FAA878 /* HawaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AEED529F9F74000FAA878 /* HawaTests.swift */,
+			);
+			path = HawaTests;
+			sourceTree = "<group>";
+		};
+		DD4AEEDE29F9F74000FAA878 /* HawaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AEEDF29F9F74000FAA878 /* HawaUITests.swift */,
+				DD4AEEE129F9F74000FAA878 /* HawaUITestsLaunchTests.swift */,
+			);
+			path = HawaUITests;
+			sourceTree = "<group>";
+		};
+		DD4AEEEE29F9F79E00FAA878 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DD4AEEEF29F9F7BF00FAA878 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD4AEEF029F9F7CD00FAA878 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		DD4AEEF129F9F7DE00FAA878 /* SecondaryViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondaryViews;
+			sourceTree = "<group>";
+		};
+		DD4AEEF229F9F7EC00FAA878 /* CoreViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreViews;
+			sourceTree = "<group>";
+		};
+		DD4AEEF329F9F7F800FAA878 /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AEEF429F9FB1C00FAA878 /* LoginViewController.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4AEEBA29F9F73F00FAA878 /* Hawa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4AEEE529F9F74000FAA878 /* Build configuration list for PBXNativeTarget "Hawa" */;
+			buildPhases = (
+				DD4AEEB729F9F73F00FAA878 /* Sources */,
+				DD4AEEB829F9F73F00FAA878 /* Frameworks */,
+				DD4AEEB929F9F73F00FAA878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hawa;
+			productName = Hawa;
+			productReference = DD4AEEBB29F9F73F00FAA878 /* Hawa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4AEED029F9F74000FAA878 /* HawaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4AEEE829F9F74000FAA878 /* Build configuration list for PBXNativeTarget "HawaTests" */;
+			buildPhases = (
+				DD4AEECD29F9F74000FAA878 /* Sources */,
+				DD4AEECE29F9F74000FAA878 /* Frameworks */,
+				DD4AEECF29F9F74000FAA878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4AEED329F9F74000FAA878 /* PBXTargetDependency */,
+			);
+			name = HawaTests;
+			productName = HawaTests;
+			productReference = DD4AEED129F9F74000FAA878 /* HawaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD4AEEDA29F9F74000FAA878 /* HawaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4AEEEB29F9F74000FAA878 /* Build configuration list for PBXNativeTarget "HawaUITests" */;
+			buildPhases = (
+				DD4AEED729F9F74000FAA878 /* Sources */,
+				DD4AEED829F9F74000FAA878 /* Frameworks */,
+				DD4AEED929F9F74000FAA878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4AEEDD29F9F74000FAA878 /* PBXTargetDependency */,
+			);
+			name = HawaUITests;
+			productName = HawaUITests;
+			productReference = DD4AEEDB29F9F74000FAA878 /* HawaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4AEEB329F9F73F00FAA878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD4AEEBA29F9F73F00FAA878 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DD4AEED029F9F74000FAA878 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DD4AEEBA29F9F73F00FAA878;
+					};
+					DD4AEEDA29F9F74000FAA878 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DD4AEEBA29F9F73F00FAA878;
+					};
+				};
+			};
+			buildConfigurationList = DD4AEEB629F9F73F00FAA878 /* Build configuration list for PBXProject "Hawa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4AEEB229F9F73F00FAA878;
+			productRefGroup = DD4AEEBC29F9F73F00FAA878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4AEEBA29F9F73F00FAA878 /* Hawa */,
+				DD4AEED029F9F74000FAA878 /* HawaTests */,
+				DD4AEEDA29F9F74000FAA878 /* HawaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4AEEB929F9F73F00FAA878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4AEECB29F9F74000FAA878 /* LaunchScreen.storyboard in Resources */,
+				DD4AEEC829F9F74000FAA878 /* Assets.xcassets in Resources */,
+				DD4AEEC629F9F73F00FAA878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEECF29F9F74000FAA878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEED929F9F74000FAA878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4AEEB729F9F73F00FAA878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4AEEF529F9FB1C00FAA878 /* LoginViewController.swift in Sources */,
+				DD4AEEBF29F9F73F00FAA878 /* AppDelegate.swift in Sources */,
+				DD4AEEC129F9F73F00FAA878 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEECD29F9F74000FAA878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4AEED629F9F74000FAA878 /* HawaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4AEED729F9F74000FAA878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4AEEE029F9F74000FAA878 /* HawaUITests.swift in Sources */,
+				DD4AEEE229F9F74000FAA878 /* HawaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4AEED329F9F74000FAA878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4AEEBA29F9F73F00FAA878 /* Hawa */;
+			targetProxy = DD4AEED229F9F74000FAA878 /* PBXContainerItemProxy */;
+		};
+		DD4AEEDD29F9F74000FAA878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4AEEBA29F9F73F00FAA878 /* Hawa */;
+			targetProxy = DD4AEEDC29F9F74000FAA878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD4AEEC429F9F73F00FAA878 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4AEEC529F9F73F00FAA878 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4AEEC929F9F74000FAA878 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4AEECA29F9F74000FAA878 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4AEEE329F9F74000FAA878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4AEEE429F9F74000FAA878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4AEEE629F9F74000FAA878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hawa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4AEEE729F9F74000FAA878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hawa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD4AEEE929F9F74000FAA878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HawaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hawa";
+			};
+			name = Debug;
+		};
+		DD4AEEEA29F9F74000FAA878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HawaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hawa";
+			};
+			name = Release;
+		};
+		DD4AEEEC29F9F74000FAA878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HawaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hawa;
+			};
+			name = Debug;
+		};
+		DD4AEEED29F9F74000FAA878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HawaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hawa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4AEEB629F9F73F00FAA878 /* Build configuration list for PBXProject "Hawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4AEEE329F9F74000FAA878 /* Debug */,
+				DD4AEEE429F9F74000FAA878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4AEEE529F9F74000FAA878 /* Build configuration list for PBXNativeTarget "Hawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4AEEE629F9F74000FAA878 /* Debug */,
+				DD4AEEE729F9F74000FAA878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4AEEE829F9F74000FAA878 /* Build configuration list for PBXNativeTarget "HawaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4AEEE929F9F74000FAA878 /* Debug */,
+				DD4AEEEA29F9F74000FAA878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4AEEEB29F9F74000FAA878 /* Build configuration list for PBXNativeTarget "HawaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4AEEEC29F9F74000FAA878 /* Debug */,
+				DD4AEEED29F9F74000FAA878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4AEEB329F9F73F00FAA878 /* Project object */;
+}
